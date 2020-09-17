@@ -1,0 +1,39 @@
+*{ margin:0;
+padding:0}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#page-title{
+    text-align: center;
+    padding: 50px;
+    font-weight:  400;
+}
+
+.container {
+
+    width: max-content;
+    max-width: 1000px;
+    background: lightpink;
+    margin: 0 auto 0 auto;
+    /* margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    margin-left: 0;
+    margin-right: auto; */
+    /* TRBL//"TROUBLE"
+    Top,Right,Bottom,Left */
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: tanslate(-50%,-50%); */
+}
+    /* images by default are:
+    display: inline-block */
+.container img{
+    width: 400px;
+    margin: 30px;
+    display:block;
+}
