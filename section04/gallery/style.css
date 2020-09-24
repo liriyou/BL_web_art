@@ -50,11 +50,9 @@ html{
     color: rgb(168, 158, 142);
   }
 
-  #right-corner{
-        color:#fff;
+  #big-text{
         font-size: 200px;
-        margin-top: 500px;
-        margin-left: 70%;
+        
         }
 
   #footerbox{
@@ -102,13 +100,18 @@ html{
       flex-direction: column;
     }
 
+    .b-text{
+      color: white;
+      font-size: 200px;
+    }
+
    
     section {
       
       padding: 10px;
       margin: 20px;
-      /* background-color: #ffff0044;border-radius: 20px;
-      box-shadow: 0px 3px 12px -5px black; */
+      background-color: #ffff0044;border-radius: 20px;
+      box-shadow: 0px 3px 12px -5px black;
     }
   
     section > * {
@@ -118,9 +121,9 @@ html{
     .container-test{
       
       padding: 15px;
-      /* background: lightblue;
+      background: lightblue;
       border-radius: 15px;
-      box-shadow: 0px 2px 8px -5px  */
+      box-shadow: 0px 2px 8px -5px 
     } 
     
     .put-em-in-a-row {
@@ -134,8 +137,8 @@ html{
       
       margin: 150px;
       margin-left: 150px;
-      /* background: lightpink;border-radius: 10px;
-      box-shadow: 0px 2px 5px -2px; */
+      background: lightpink;border-radius: 10px;
+      box-shadow: 0px 2px 5px -2px;
     }
     h1{
       margin-left: 150px
@@ -147,8 +150,8 @@ html{
       
       margin: 100px;
       margin-left: 100px;
-      /* background: rgb(103, 250, 225);border-radius: 10px;
-      box-shadow: 0px 2px 5px -2px; */
+      background: rgb(103, 250, 225);border-radius: 10px;
+      box-shadow: 0px 2px 5px -2px;
     }
 
     div img{
