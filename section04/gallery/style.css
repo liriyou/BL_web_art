@@ -110,9 +110,9 @@ html{
       padding: 10px;
       margin: 20px;
       
-      /* background-color: #ffff0044;
+      background-color: #ffff0044;
       border-radius: 20px;
-      box-shadow: 0px 3px 12px -5px black; */
+      box-shadow: 0px 3px 12px -5px black;
     }
   
     section > * {
@@ -123,9 +123,9 @@ html{
       
       padding: 15px;
 
-      /* background: lightblue;
+      background: lightblue;
       border-radius: 15px;
-      box-shadow: 0px 2px 8px -5px  */
+      box-shadow: 0px 2px 8px -5px 
     } 
     
     .put-em-in-a-row {
@@ -134,14 +134,14 @@ html{
       align-items: center;
     }
     .sbox{
-      width: 50%;
+      width: clamp(600px, 30vw, 800px);
       height: 500px;
       
       margin: 150px;
       margin-left: 150px;
 
-      /* background: lightpink;border-radius: 10px;
-      box-shadow: 0px 2px 5px -2px; */
+      background: lightpink;border-radius: 10px;
+      box-shadow: 0px 2px 5px -2px;
     }
     h1{
       margin-left: 150px
@@ -153,8 +153,10 @@ html{
       
       margin: 100px;
       margin-left: 100px;
-      /* background: rgb(103, 250, 225);border-radius: 10px;
-      box-shadow: 0px 2px 5px -2px; */
+
+
+      background: rgb(103, 250, 225);border-radius: 10px;
+      box-shadow: 0px 2px 5px -2px;
     }
 
     div img{
