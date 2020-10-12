@@ -35,3 +35,18 @@ header h1{
 .gallery__item{
     margin: 2vmin;
 }
+
+.gallery__item :hover{
+    transform: scale(10vh,10vw);
+}
+
+.wrapper img{
+    width: 300px;
+    height: 210px;
+    box-shadow: 0px 2px 5px -2px;
+    border-radius: 10px;
+}
+
+.wrapper img:hover{
+    transform: scale(1.05);
+  }
