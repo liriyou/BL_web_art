@@ -1,0 +1,39 @@
+h1{
+    color: blue
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(80, 41, 47);
+    margin: 10px;
+    animation:rotatBox 2s infinite linear ;
+}
+
+.my-special-rotate-class{
+    animation: rotatBox 2s infinite linear;
+}
+
+.cool-box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192, 255, 218);
+    display: inline-block;
+    margin: 10px;
+}
+
+.spacefiller{
+    width: 20vw;
+    height: 500vh;
+    background-color: blue;
+}
+
+.some-text{
+    position: absolute;
+
+}
+
+@keyframes rotate {
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(0deg);}
+}
