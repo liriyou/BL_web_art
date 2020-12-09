@@ -2,7 +2,7 @@
 padding:0}
 body{
 
-    background-color: rgb(231, 224, 211);
+    background-color: rgb(226, 226, 226);
 }
 
 
@@ -34,7 +34,7 @@ html{
     width: 20%;
     height: 30px;
     /* border: 4px solid black; */
-    background-color: rgb(192, 179, 166);
+    background-color: rgb(194, 194, 194);
     margin: 8px;
     font-size: 20px;
     color: rgb(61, 56, 53);
@@ -45,7 +45,7 @@ html{
 
   .box:hover{
     height: 48px;
-    background-color: rgb(61, 56, 53);
+    background-color: rgb(65, 65, 65);
     color: rgb(168, 158, 142);
   }
 
@@ -56,7 +56,7 @@ html{
 
   #footerbox{
       color:#fff;
-      background-color:#312e2e;
+      background-color:#303030;
       height:30px;
       line-height:30px !important;
       margin:0;
@@ -110,7 +110,7 @@ html{
       padding: 10px;
       margin: 20px;
       
-      background-color: #ffff0044;
+      background-color: #bbbbbb44;
       border-radius: 20px;
       box-shadow: 0px 3px 12px -5px black;
     }
