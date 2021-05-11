@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 :root {
   --primary-color: #3a4052;
@@ -11,7 +12,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'VT323', monospace;
   line-height: 1.5;
 }
 
@@ -107,3 +108,10 @@ h1 {
 .social a {
   margin: 0 5px;
 }
+
+#char {
+  padding: 40px;
+  text-align: center;
+}
+
+
